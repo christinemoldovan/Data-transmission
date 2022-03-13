@@ -1,0 +1,150 @@
+body{
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#widget {
+    width: 60px;
+    background-color: #555;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+#result {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+#inc {
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: #5b9aff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#inc:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
+
+#dec {
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: #5b9aff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#dec:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
+
+#mul {
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: #5b9aff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#mul:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
+
+#div {
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: #5b9aff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+
+#div:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
+
+#eq {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #5b9aff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#eq:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
+
+#firstNumber {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #5b9aff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#firstNumber:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
+
+#secondNumber {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #5b9aff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+#secondNumber:hover {
+    cursor: pointer;
+    background-color: #8cb8ff;
+    color: #fff;
+}
