@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Baseband Encoder</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="baseband-encoder">
+        <ul v-for="(bit, index) in bits">
+            <li>
+                <input 
+                    v-on:change="encode()" 
+                    maxlength="1" :placeholder="'B'+index" v-model="bit.value"
+                    v-bind:class="[validateBit(bit.value) ? 'valid-input' : 'invalid-input']" />
+            </li>
+        </ul>
+        <p>Bitstream data model: <code>{{bits}}</code></p>
+      
+        <p>Non Return to Zero Level: <code class="encoded">{{encodedBits.join('')}}</code></p>
+
+        <p>Non Return to Zero Mark: <code class="encoded">{{encodedBits2.join('')}}</code></p>
+
+       <!--  <p>Non Return to Zero Space: <code class="encoded">{{encodedBits3.join('')}}</code></p> -->
+
+        <p>Return to Zero: <code class="encoded"> {{encodedBits4.join('')}}</code></p>
+
+        <p>Biphase Level: <code class="encoded">  {{encodedBits5.join('')}}</code></p>
+
+        <p>Biphase Mark: <code class="encoded">  {{encodedBits6.join('')}}</code></p>
+
+        <p>Biphase Space: <code class="encoded"> {{encodedBits7.join('')}}</code></p>
+
+        <p>Biphase Level Differential: <code class="encoded">{{encodedBits8.join('')}}
+        </code></p>
+
+        <p>Biphase Delay (Miller): <code class="encoded"> {{encodedBits9.join('')}}</code></p>
+        
+    </div>
+
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+    <script type="text/javascript" src="js/helpers.js"></script>
+    <script type="text/javascript" src="js/baseband-codes.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
